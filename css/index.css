@@ -322,3 +322,16 @@ header {
 #ten {
   background: dodgerblue;
 }
+
+header {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgb(0, 43, 63);
+  }
+  100% {
+    background-color: #ff4136;
+  }
+}
